@@ -18,7 +18,8 @@ Incorporé tests tanto en el backend como en el frontend, y en mi última revisi
 La idea es seguir mejorando la estabilidad del proyecto y detectar posibles problemas antes de que lleguen al usuario.
 
 📸 Capturas de pantalla
-Algunas imágenes de las funcionalidades incorporadas durante este sprint:
+
+Algunas imágenes de las  funcionalidades incorporadas durante este sprint:
 
 <img width="1232" height="628" alt="Captura de pantalla 2026-10-21 181749" src="https://github.com/user-attachments/assets/c5812905-522d-469a-b265-4fe17e11cc64" />
 <img width="1239" height="633" alt="Captura de pantalla 2026-10-21 150121" src="https://github.com/user-attachments/assets/ef094433-30e3-434a-ae0e-7e6374630fcb" />
