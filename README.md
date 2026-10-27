@@ -73,42 +73,6 @@ Infraestructura y automatización
 Docker
 GitHub Actions
 CI/CD
-🏗️ Arquitectura general
-
-La aplicación se organiza en tres componentes principales:
-
-text
-                    ┌──────────────────────┐
-                    │       Usuario        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   Frontend - React   │
-                    │   Vite + Router      │
-                    └──────────┬───────────┘
-                               │
-                         HTTP / REST
-                         JWT cuando
-                         corresponde
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Backend - Java       │
-                    │ Spring Boot          │
-                    │ Spring Security      │
-                    └──────────┬───────────┘
-                               │
-                         Spring Data JPA
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │       MySQL          │
-                    │ Base de datos        │
-                    └──────────────────────┘
-
-
-El frontend consume los endpoints del backend. El backend procesa las solicitudes, aplica las reglas de seguridad y los permisos correspondientes, ejecuta la lógica de negocio y accede a la base de datos para persistir y recuperar la información.
 
 🔑 Autenticación y autorización
 
